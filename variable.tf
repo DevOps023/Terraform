@@ -14,6 +14,6 @@ variable "password" {
 }
 
 variable "location" {
-  description = "Azure location."
+  description = "Azure location"
   type        = string
 }
