@@ -6,6 +6,7 @@ pool:
 
 steps:
 - task: TerraformInstaller@0
+  displayName: 'Terraform Install'
   inputs:
     terraformVersion: 'latest'
 
@@ -16,7 +17,7 @@ steps:
     command: 'init'
     backendServiceArm: 'Azure-SC'
     backendAzureRmResourceGroupName: 'Test'
-    backendAzureRmStorageAccountName: 'demoresourcegroup'
+    backendAzureRmStorageAccountName: 'demostorageaccount'
     backendAzureRmContainerName: 'terraformbackend'
     backendAzureRmKey: 'terraform.tfstate'
 - task: TerraformTaskV3@3
