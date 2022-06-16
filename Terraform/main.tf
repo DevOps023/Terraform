@@ -7,7 +7,7 @@ provider "azurerm" {
 terraform{
   backend "azurerm"{
     resource_group_name = "Test"
-    storage_account_name = "demostorageaccount"
+    storage_account_name = "demosan"
     container_name = "terraformbackend"
 
   }
