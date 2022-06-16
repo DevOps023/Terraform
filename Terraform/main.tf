@@ -34,7 +34,7 @@ resource "azurerm_subnet" "subnet" {
 }
 
 resource "azurerm_network_interface" "nic" {
-  name                = "${var.prefix}-nic}"
+  name                = "${var.prefix}-nic"
   location            = azurerm_resource_group.RG.location
   resource_group_name = azurerm_resource_group.RG.name
 
