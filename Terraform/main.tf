@@ -6,9 +6,9 @@ provider "azurerm" {
 
 terraform{
   backend "azurerm"{
-    resource_group_name = var.resource_group
-    storage_account_name = var.storage_account
-    container_name = var.container_name
+    resource_group_name = "Test"
+    storage_account_name = "demostorageaccount"
+    container_name = "terraformbackend"
 
   }
 }

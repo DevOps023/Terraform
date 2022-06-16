@@ -18,21 +18,6 @@ variable "location" {
   type        = string
 }
 
-variable "resource_group" {
-  
-  type        = string
-}
-
-variable "storage_account" {
- 
-  type        = string
-}
-
-variable "container_name" {
-  
-  type        = string
-}
-
 variable "address_space_vnet" {
   
   type        = list
